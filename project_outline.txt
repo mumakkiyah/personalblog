@@ -1,0 +1,45 @@
+Title 
+    Personal blog project
+
+WHY
+    1. A great way to practice coding in Python, Flask specifically  
+    2. A segway to improving my writing and thinking senses
+
+WHAT
+    - A database-driven web-app
+    - Simple dynamic UI
+
+    * Initial features includes:
+        Index: landing page with nav b, latest articles, 
+                    header and footer
+        Archive: list of articles in cards w/title  
+        Article page: detailed page of the article  
+        About: content-block resume, past projects, hobbies/interests,
+                social-media handles
+        Contact: a basic mailto: link
+
+    * Next iteration:
+        > search on index page
+        > article card with img and title in Archive page
+        > comment & like/dislike on article page
+        > pagination or lazy-load on Archive page
+        > a basic contact-me form in Contact page
+        > Admin page with content editor w/basic functionality
+
+HOW
+    * Tech Stack
+        - HTML5
+        - CSS: Bootstrap
+        - Python: Flask for endpoint development / back-endpoint
+        - Database: MySQL DB
+    * Hosting
+        > AWS or Google App Engine
+            1. DB instance
+            2. App hosting 
+            3. File storage 
+
+Considerations
+    > Cost: how much am I willing to pay to host for the sake of practicing?
+    > Content creation: given that content has to be inserted into DB manually, consider a scalable database table design. 
+    > Formatting: article formatting will be restricted to header, sub-header, 
+                  and entire paragraph, during the initial release without any img blocks.
